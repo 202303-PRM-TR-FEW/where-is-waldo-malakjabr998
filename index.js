@@ -6,7 +6,7 @@ const example = [
 const whereIsWaldo = (matrix) => {
   for ( let i=1; i<matrix.length+1; i++){
     for (let j=1; j<matrix[i].length+1; j++){
-      if (example[i][j]==="B"){
+      if (matrix[i][j]==="B"){
         return [i+1 , j+1 ]
       }
     }
